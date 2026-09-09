@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/Theme.HelloAndroid</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5a1d21e-55ec-4453-8c2b-1535ade63709" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Assignment1/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment1/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c1e0f0b5-6468-4e99-a769-21b9d816e29e" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../HelloAndriod/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HelloAndriod/app/src/main/java/com/example/helloandriod/FirstFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HelloAndriod/app/src/main/java/com/example/helloandriod/SecondFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HelloAndriod/app/src/main/res/layout/fragment_first.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HelloAndriod/app/src/main/res/layout/fragment_second.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../HelloAndriod/build.gradle.kts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../HelloAndriod/gradle.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../HelloAndriod/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
@@ -45,33 +51,31 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0,
+  &quot;associatedIndex&quot;: 7,
   &quot;fromUser&quot;: false
 }</component>
-  <component name="ProjectId" id="3J3h2RVdcudG0NazK49pQfacX5T" />
+  <component name="ProjectId" id="3Isj1FOAHZNRfZsazGSIaGYhHAP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Android App.app.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="inclass.app" />
+      <module name="Hello_Android.app" />
       <option name="ANDROID_RUN_CONFIGURATION_SCHEMA_VERSION" value="1" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -139,12 +143,28 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a5a1d21e-55ec-4453-8c2b-1535ade63709" name="Changes" comment="" />
-      <created>1788895451386</created>
+      <changelist id="c1e0f0b5-6468-4e99-a769-21b9d816e29e" name="Changes" comment="" />
+      <created>1788559953126</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1788895451386</updated>
+      <updated>1788559953126</updated>
     </task>
     <servers />
+  </component>
+  <component name="play_dynamic_filters_status">
+    <option name="appIdToCheckInfo">
+      <map>
+        <entry key="com.example.helloandroid">
+          <value>
+            <CheckInfo lastCheckTimestamp="1788655213557" />
+          </value>
+        </entry>
+        <entry key="com.example.helloandroid.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1788655213559" />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
