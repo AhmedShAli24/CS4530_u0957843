@@ -30,7 +30,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 
-// The whole screen: the ONLY composable that talks to the ViewModel
 @Composable
 fun CourseScreen(
     modifier: Modifier = Modifier,
@@ -71,7 +70,6 @@ fun CourseScreen(
     }
 }
 
-// Add / Edit form
 @Composable
 fun CourseForm(
     initialCourse: Course?,
