@@ -29,12 +29,14 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
 
 @Composable
 fun CourseScreen(
     modifier: Modifier = Modifier,
-    vm: CourseViewModel = viewModel()
+    vm: CourseViewModel = viewModel(factory = CourseViewModel.Factory)
 ) {
+    val courses by vm.courses.collectAsStateWithLifecycle()
     Column(
         modifier = modifier
             .fillMaxSize()
@@ -54,7 +56,7 @@ fun CourseScreen(
         Spacer(modifier = Modifier.height(8.dp))
 
         CourseList(
-            courses = vm.courses,
+            courses = courses,
             onCourseClick = { vm.selectCourse(it) },
             onDelete = { vm.deleteCourse(it) },
             modifier = Modifier.weight(1f)
