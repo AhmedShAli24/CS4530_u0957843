@@ -17,14 +17,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1e0f0b5-6468-4e99-a769-21b9d816e29e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../HelloAndriod/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HelloAndriod/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HelloAndriod/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HelloAndriod/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HelloAndriod/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HelloAndriod/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HelloAndriod/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HelloAndriod/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FunFacts/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FunFacts/app/proguard-rules.pro" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +44,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AhmedShAli24"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AhmedShAli24/CS4530_u0957843.git",
+    "accountId": "6ca29af5-7fb9-4c69-8894-17ba6de11081"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7,
   &quot;fromUser&quot;: false
